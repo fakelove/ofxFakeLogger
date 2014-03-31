@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		059A4E132D0A2A8196B6534A /* ImpressionsLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 547C3414F09B13822D84BE51 /* ImpressionsLogger.cpp */; };
-		0A03C905A32659BB6B1C38A9 /* Logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4E8D75AF26A6B6DB8B31E28 /* Logger.cpp */; };
-		857C6E9F84152BCBC379E0E8 /* Status.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78E90E275A4F8B90087FC5CA /* Status.cpp */; };
-		8CDC00B530D89865BDA5CA8A /* DataLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E5EB704F3A83AA8475567C1 /* DataLogger.cpp */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
+		C8C3F1BA18E9EF8100CE4DD2 /* Data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8C3F19518E9EF8100CE4DD2 /* Data.cpp */; };
+		C8C3F1BB18E9EF8100CE4DD2 /* Http.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8C3F19D18E9EF8100CE4DD2 /* Http.cpp */; };
+		C8C3F1BC18E9EF8100CE4DD2 /* Impressions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8C3F1A518E9EF8100CE4DD2 /* Impressions.cpp */; };
+		C8C3F1BD18E9EF8100CE4DD2 /* Logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8C3F1B118E9EF8100CE4DD2 /* Logger.cpp */; };
+		C8C3F1BE18E9EF8100CE4DD2 /* Status.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8C3F1B918E9EF8100CE4DD2 /* Status.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
 		E45BE97C0E8CC7DD009D7055 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9720E8CC7DD009D7055 /* ApplicationServices.framework */; };
@@ -30,7 +31,6 @@
 		E7E077E515D3B63C0020DFD4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E077E415D3B63C0020DFD4 /* CoreVideo.framework */; };
 		E7E077E815D3B6510020DFD4 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E077E715D3B6510020DFD4 /* QTKit.framework */; };
 		E7F985F815E0DEA3003869B5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F985F515E0DE99003869B5 /* Accelerate.framework */; };
-		E80E38B2B5B80108D924C76A /* HttpLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B418D1D5234A95D106E23ACB /* HttpLogger.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,18 +64,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0E5EB704F3A83AA8475567C1 /* DataLogger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = DataLogger.cpp; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/data/src/DataLogger.cpp; sourceTree = SOURCE_ROOT; };
-		18408C63A3812D6B49C60AFB /* DataLogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = DataLogger.h; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/data/include/DataLogger.h; sourceTree = SOURCE_ROOT; };
-		4BCB0129E95A80D772DCDA6D /* FakeLogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = FakeLogger.h; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/include/ofx/FakeLogger/FakeLogger.h; sourceTree = SOURCE_ROOT; };
-		500195F6BB20BBAE40F7EC03 /* Logger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Logger.h; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/logger/include/Logger.h; sourceTree = SOURCE_ROOT; };
-		547C3414F09B13822D84BE51 /* ImpressionsLogger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ImpressionsLogger.cpp; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/impressions/src/ImpressionsLogger.cpp; sourceTree = SOURCE_ROOT; };
-		6ED566BC2688E4EDDD18197E /* Status.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Status.h; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/status/include/Status.h; sourceTree = SOURCE_ROOT; };
-		73167574CFB722E2FA906EBB /* HttpLogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = HttpLogger.h; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/http/include/HttpLogger.h; sourceTree = SOURCE_ROOT; };
-		78E90E275A4F8B90087FC5CA /* Status.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Status.cpp; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/status/src/Status.cpp; sourceTree = SOURCE_ROOT; };
-		93C853238E3104811B095086 /* ImpressionsLogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImpressionsLogger.h; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/impressions/include/ImpressionsLogger.h; sourceTree = SOURCE_ROOT; };
-		B418D1D5234A95D106E23ACB /* HttpLogger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = HttpLogger.cpp; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/http/src/HttpLogger.cpp; sourceTree = SOURCE_ROOT; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
-		DB5A694BF3586AABAF419B38 /* ofxFakeLogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxFakeLogger.h; path = ../../../addons/ofxFakeLogger/src/ofxFakeLogger.h; sourceTree = SOURCE_ROOT; };
+		C8C3F18B18E9EF8100CE4DD2 /* ofxFakeLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxFakeLogger.h; sourceTree = "<group>"; };
+		C8C3F19318E9EF8100CE4DD2 /* Data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		C8C3F19518E9EF8100CE4DD2 /* Data.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Data.cpp; sourceTree = "<group>"; };
+		C8C3F19B18E9EF8100CE4DD2 /* Http.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Http.h; sourceTree = "<group>"; };
+		C8C3F19D18E9EF8100CE4DD2 /* Http.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Http.cpp; sourceTree = "<group>"; };
+		C8C3F1A318E9EF8100CE4DD2 /* Impressions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Impressions.h; sourceTree = "<group>"; };
+		C8C3F1A518E9EF8100CE4DD2 /* Impressions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Impressions.cpp; sourceTree = "<group>"; };
+		C8C3F1A918E9EF8100CE4DD2 /* FakeLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FakeLogger.h; sourceTree = "<group>"; };
+		C8C3F1AF18E9EF8100CE4DD2 /* Logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		C8C3F1B118E9EF8100CE4DD2 /* Logger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Logger.cpp; sourceTree = "<group>"; };
+		C8C3F1B718E9EF8100CE4DD2 /* Status.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
+		C8C3F1B918E9EF8100CE4DD2 /* Status.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Status.cpp; sourceTree = "<group>"; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
 		E45BE9720E8CC7DD009D7055 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
@@ -98,7 +99,6 @@
 		E7E077E415D3B63C0020DFD4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		E7E077E715D3B6510020DFD4 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		E7F985F515E0DE99003869B5 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
-		F4E8D75AF26A6B6DB8B31E28 /* Logger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Logger.cpp; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/logger/src/Logger.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,163 +128,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01194C3A368E0F34E4519D84 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				547C3414F09B13822D84BE51 /* ImpressionsLogger.cpp */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
-		0AB149A55AA4E4EE6F85895F /* http */ = {
-			isa = PBXGroup;
-			children = (
-				DC58609EFEEE4E3DE9DDEE54 /* include */,
-				684097848687DC71E6092F6C /* src */,
-			);
-			name = http;
-			sourceTree = "<group>";
-		};
-		1207838880876D65B8C16D11 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				18408C63A3812D6B49C60AFB /* DataLogger.h */,
-			);
-			name = include;
-			sourceTree = "<group>";
-		};
-		20A8621D4C93ACD782EBAB4F /* data */ = {
-			isa = PBXGroup;
-			children = (
-				1207838880876D65B8C16D11 /* include */,
-				AF971ABE841BC98D6611FC48 /* src */,
-			);
-			name = data;
-			sourceTree = "<group>";
-		};
-		24B937CBA8FBCAE4710F7F0B /* include */ = {
-			isa = PBXGroup;
-			children = (
-				3B8A4C6AD09BB047FEA40BE2 /* ofx */,
-			);
-			name = include;
-			sourceTree = "<group>";
-		};
-		2B251622E45428886E9BA4F0 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				DB5A694BF3586AABAF419B38 /* ofxFakeLogger.h */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
-		3B8A4C6AD09BB047FEA40BE2 /* ofx */ = {
-			isa = PBXGroup;
-			children = (
-				C49B59D304CAFAC2F77D267C /* FakeLogger */,
-			);
-			name = ofx;
-			sourceTree = "<group>";
-		};
-		3C8423C5B2522EE53FC09CD5 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				F4E8D75AF26A6B6DB8B31E28 /* Logger.cpp */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
-		44B7FABE6E0341EB50575D69 /* logger */ = {
-			isa = PBXGroup;
-			children = (
-				A6C7628757F813A3BDA0F7D6 /* include */,
-				3C8423C5B2522EE53FC09CD5 /* src */,
-			);
-			name = logger;
-			sourceTree = "<group>";
-		};
-		501FB4B241F9159A53982436 /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				9ECCEA110131EC51EBA20954 /* ofxFakeLogger */,
-			);
-			name = libs;
-			sourceTree = "<group>";
-		};
-		684097848687DC71E6092F6C /* src */ = {
-			isa = PBXGroup;
-			children = (
-				B418D1D5234A95D106E23ACB /* HttpLogger.cpp */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
-		7202CE1CEC827825FFC82EDE /* src */ = {
-			isa = PBXGroup;
-			children = (
-				78E90E275A4F8B90087FC5CA /* Status.cpp */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
-		79FFB4226D85AA5B93C5F5F9 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				6ED566BC2688E4EDDD18197E /* Status.h */,
-			);
-			name = include;
-			sourceTree = "<group>";
-		};
-		9CA10EB3D8E78694E460F783 /* ofxFakeLogger */ = {
-			isa = PBXGroup;
-			children = (
-				2B251622E45428886E9BA4F0 /* src */,
-				501FB4B241F9159A53982436 /* libs */,
-			);
-			name = ofxFakeLogger;
-			sourceTree = "<group>";
-		};
-		9ECCEA110131EC51EBA20954 /* ofxFakeLogger */ = {
-			isa = PBXGroup;
-			children = (
-				20A8621D4C93ACD782EBAB4F /* data */,
-				0AB149A55AA4E4EE6F85895F /* http */,
-				DC4DE65AEAB7BDCF9755BEB5 /* impressions */,
-				24B937CBA8FBCAE4710F7F0B /* include */,
-				44B7FABE6E0341EB50575D69 /* logger */,
-				E80A2DC7E3758459DD643F22 /* status */,
-			);
-			name = ofxFakeLogger;
-			sourceTree = "<group>";
-		};
-		A54FD2D1B95B760C32E7535E /* include */ = {
-			isa = PBXGroup;
-			children = (
-				93C853238E3104811B095086 /* ImpressionsLogger.h */,
-			);
-			name = include;
-			sourceTree = "<group>";
-		};
-		A6C7628757F813A3BDA0F7D6 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				500195F6BB20BBAE40F7EC03 /* Logger.h */,
-			);
-			name = include;
-			sourceTree = "<group>";
-		};
-		AF971ABE841BC98D6611FC48 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				0E5EB704F3A83AA8475567C1 /* DataLogger.cpp */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
-				9CA10EB3D8E78694E460F783 /* ofxFakeLogger */,
+				C8C3F18918E9EF8100CE4DD2 /* ofxFakeLogger */,
 			);
 			name = addons;
 			sourceTree = "<group>";
@@ -318,29 +165,313 @@
 			name = "3rd party frameworks";
 			sourceTree = "<group>";
 		};
-		C49B59D304CAFAC2F77D267C /* FakeLogger */ = {
+		C8C3F18918E9EF8100CE4DD2 /* ofxFakeLogger */ = {
 			isa = PBXGroup;
 			children = (
-				4BCB0129E95A80D772DCDA6D /* FakeLogger.h */,
+				C8C3F18A18E9EF8100CE4DD2 /* src */,
+				C8C3F18C18E9EF8100CE4DD2 /* libs */,
 			);
-			name = FakeLogger;
+			name = ofxFakeLogger;
 			sourceTree = "<group>";
 		};
-		DC4DE65AEAB7BDCF9755BEB5 /* impressions */ = {
+		C8C3F18A18E9EF8100CE4DD2 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				A54FD2D1B95B760C32E7535E /* include */,
-				01194C3A368E0F34E4519D84 /* src */,
+				C8C3F18B18E9EF8100CE4DD2 /* ofxFakeLogger.h */,
 			);
-			name = impressions;
+			name = src;
+			path = ../src;
 			sourceTree = "<group>";
 		};
-		DC58609EFEEE4E3DE9DDEE54 /* include */ = {
+		C8C3F18C18E9EF8100CE4DD2 /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				73167574CFB722E2FA906EBB /* HttpLogger.h */,
+				C8C3F18D18E9EF8100CE4DD2 /* ofxFakeLogger */,
 			);
-			name = include;
+			name = libs;
+			path = ../libs;
+			sourceTree = "<group>";
+		};
+		C8C3F18D18E9EF8100CE4DD2 /* ofxFakeLogger */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F18E18E9EF8100CE4DD2 /* data */,
+				C8C3F19618E9EF8100CE4DD2 /* http */,
+				C8C3F19E18E9EF8100CE4DD2 /* impressions */,
+				C8C3F1A618E9EF8100CE4DD2 /* include */,
+				C8C3F1AA18E9EF8100CE4DD2 /* logger */,
+				C8C3F1B218E9EF8100CE4DD2 /* status */,
+			);
+			path = ofxFakeLogger;
+			sourceTree = "<group>";
+		};
+		C8C3F18E18E9EF8100CE4DD2 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F18F18E9EF8100CE4DD2 /* include */,
+				C8C3F19418E9EF8100CE4DD2 /* src */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		C8C3F18F18E9EF8100CE4DD2 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F19018E9EF8100CE4DD2 /* ofx */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		C8C3F19018E9EF8100CE4DD2 /* ofx */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F19118E9EF8100CE4DD2 /* FakeLogger */,
+			);
+			path = ofx;
+			sourceTree = "<group>";
+		};
+		C8C3F19118E9EF8100CE4DD2 /* FakeLogger */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F19218E9EF8100CE4DD2 /* data */,
+			);
+			path = FakeLogger;
+			sourceTree = "<group>";
+		};
+		C8C3F19218E9EF8100CE4DD2 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F19318E9EF8100CE4DD2 /* Data.h */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		C8C3F19418E9EF8100CE4DD2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F19518E9EF8100CE4DD2 /* Data.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		C8C3F19618E9EF8100CE4DD2 /* http */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F19718E9EF8100CE4DD2 /* include */,
+				C8C3F19C18E9EF8100CE4DD2 /* src */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		C8C3F19718E9EF8100CE4DD2 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F19818E9EF8100CE4DD2 /* ofx */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		C8C3F19818E9EF8100CE4DD2 /* ofx */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F19918E9EF8100CE4DD2 /* FakeLogger */,
+			);
+			path = ofx;
+			sourceTree = "<group>";
+		};
+		C8C3F19918E9EF8100CE4DD2 /* FakeLogger */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F19A18E9EF8100CE4DD2 /* http */,
+			);
+			path = FakeLogger;
+			sourceTree = "<group>";
+		};
+		C8C3F19A18E9EF8100CE4DD2 /* http */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F19B18E9EF8100CE4DD2 /* Http.h */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		C8C3F19C18E9EF8100CE4DD2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F19D18E9EF8100CE4DD2 /* Http.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		C8C3F19E18E9EF8100CE4DD2 /* impressions */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F19F18E9EF8100CE4DD2 /* include */,
+				C8C3F1A418E9EF8100CE4DD2 /* src */,
+			);
+			path = impressions;
+			sourceTree = "<group>";
+		};
+		C8C3F19F18E9EF8100CE4DD2 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F1A018E9EF8100CE4DD2 /* ofx */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		C8C3F1A018E9EF8100CE4DD2 /* ofx */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F1A118E9EF8100CE4DD2 /* FakeLogger */,
+			);
+			path = ofx;
+			sourceTree = "<group>";
+		};
+		C8C3F1A118E9EF8100CE4DD2 /* FakeLogger */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F1A218E9EF8100CE4DD2 /* impressions */,
+			);
+			path = FakeLogger;
+			sourceTree = "<group>";
+		};
+		C8C3F1A218E9EF8100CE4DD2 /* impressions */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F1A318E9EF8100CE4DD2 /* Impressions.h */,
+			);
+			path = impressions;
+			sourceTree = "<group>";
+		};
+		C8C3F1A418E9EF8100CE4DD2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F1A518E9EF8100CE4DD2 /* Impressions.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		C8C3F1A618E9EF8100CE4DD2 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F1A718E9EF8100CE4DD2 /* ofx */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		C8C3F1A718E9EF8100CE4DD2 /* ofx */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F1A818E9EF8100CE4DD2 /* FakeLogger */,
+			);
+			path = ofx;
+			sourceTree = "<group>";
+		};
+		C8C3F1A818E9EF8100CE4DD2 /* FakeLogger */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F1A918E9EF8100CE4DD2 /* FakeLogger.h */,
+			);
+			path = FakeLogger;
+			sourceTree = "<group>";
+		};
+		C8C3F1AA18E9EF8100CE4DD2 /* logger */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F1AB18E9EF8100CE4DD2 /* include */,
+				C8C3F1B018E9EF8100CE4DD2 /* src */,
+			);
+			path = logger;
+			sourceTree = "<group>";
+		};
+		C8C3F1AB18E9EF8100CE4DD2 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F1AC18E9EF8100CE4DD2 /* ofx */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		C8C3F1AC18E9EF8100CE4DD2 /* ofx */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F1AD18E9EF8100CE4DD2 /* Fakelogger */,
+			);
+			path = ofx;
+			sourceTree = "<group>";
+		};
+		C8C3F1AD18E9EF8100CE4DD2 /* Fakelogger */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F1AE18E9EF8100CE4DD2 /* logger */,
+			);
+			path = Fakelogger;
+			sourceTree = "<group>";
+		};
+		C8C3F1AE18E9EF8100CE4DD2 /* logger */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F1AF18E9EF8100CE4DD2 /* Logger.h */,
+			);
+			path = logger;
+			sourceTree = "<group>";
+		};
+		C8C3F1B018E9EF8100CE4DD2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F1B118E9EF8100CE4DD2 /* Logger.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		C8C3F1B218E9EF8100CE4DD2 /* status */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F1B318E9EF8100CE4DD2 /* include */,
+				C8C3F1B818E9EF8100CE4DD2 /* src */,
+			);
+			path = status;
+			sourceTree = "<group>";
+		};
+		C8C3F1B318E9EF8100CE4DD2 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F1B418E9EF8100CE4DD2 /* ofx */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		C8C3F1B418E9EF8100CE4DD2 /* ofx */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F1B518E9EF8100CE4DD2 /* FakeLogger */,
+			);
+			path = ofx;
+			sourceTree = "<group>";
+		};
+		C8C3F1B518E9EF8100CE4DD2 /* FakeLogger */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F1B618E9EF8100CE4DD2 /* status */,
+			);
+			path = FakeLogger;
+			sourceTree = "<group>";
+		};
+		C8C3F1B618E9EF8100CE4DD2 /* status */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F1B718E9EF8100CE4DD2 /* Status.h */,
+			);
+			path = status;
+			sourceTree = "<group>";
+		};
+		C8C3F1B818E9EF8100CE4DD2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3F1B918E9EF8100CE4DD2 /* Status.cpp */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 		E4328144138ABC890047C5CB /* Products */ = {
@@ -390,15 +521,6 @@
 				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
 			);
 			name = openFrameworks;
-			sourceTree = "<group>";
-		};
-		E80A2DC7E3758459DD643F22 /* status */ = {
-			isa = PBXGroup;
-			children = (
-				79FFB4226D85AA5B93C5F5F9 /* include */,
-				7202CE1CEC827825FFC82EDE /* src */,
-			);
-			name = status;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -488,13 +610,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8C3F1BA18E9EF8100CE4DD2 /* Data.cpp in Sources */,
+				C8C3F1BD18E9EF8100CE4DD2 /* Logger.cpp in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
-				8CDC00B530D89865BDA5CA8A /* DataLogger.cpp in Sources */,
-				E80E38B2B5B80108D924C76A /* HttpLogger.cpp in Sources */,
-				059A4E132D0A2A8196B6534A /* ImpressionsLogger.cpp in Sources */,
-				0A03C905A32659BB6B1C38A9 /* Logger.cpp in Sources */,
-				857C6E9F84152BCBC379E0E8 /* Status.cpp in Sources */,
+				C8C3F1BE18E9EF8100CE4DD2 /* Status.cpp in Sources */,
+				C8C3F1BC18E9EF8100CE4DD2 /* Impressions.cpp in Sources */,
+				C8C3F1BB18E9EF8100CE4DD2 /* Http.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
