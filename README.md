@@ -1,4 +1,9 @@
 ofxFakeLogger
 =============
 
-FakeLove Logger Addon 
+Download
+--------
+
+
+Further Steps
+-------------
