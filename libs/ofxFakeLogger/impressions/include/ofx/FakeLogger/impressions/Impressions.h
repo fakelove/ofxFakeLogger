@@ -1,29 +1,34 @@
 #pragma once
 
-#include "ofLog.h"
-#include "ofFileUtils.h"
+#include "ofMain.h"
+#include "ofx/FakeLogger/logger/EventWatcher.h"
 
 namespace ofx{
     namespace FakeLogger{
         
-        class ImpressionsLogger : public ofBaseLoggerChannel {
-            
+        class ImpressionsLogger : public EventWatcher{
+        public:
             ImpressionsLogger();
             ImpressionsLogger(const string & path, bool append);
             virtual ~ImpressionsLogger();
-            
             void setFile(const string & path,bool append=false);
-            
-            void log(ofLogLevel level, const string & module, const string & message);
-            void log(ofLogLevel level, const string & module, const char* format, ...);
-            void log(ofLogLevel level, const string & module, const char* format, va_list args);
-            
-            void close();
-            
             void log();
             
+            
+            void mousePressed(ofMouseEventArgs& mouse);
+            void mouseMoved(ofMouseEventArgs& mouse);
+            void mouseDragged(ofMouseEventArgs& mouse);
+            void mouseReleased(ofMouseEventArgs& mouse);
+            void keyPressed(ofKeyEventArgs& key);
+            void keyReleased(ofKeyEventArgs& key);
         private:
-            ofFile file;
+            ofFile mFile;
+            string mPath;
+            bool bAppend;
+            bool bOpen;
+            unsigned long long mNumClicks;
+            unsigned long long mKeysPressed;
+            
         };
     }
 }

@@ -13,19 +13,13 @@ namespace ofx{
         void HttpLogger::setFile(const string &path, bool append){
             
         }
-        void HttpLogger::log(ofLogLevel level, const string & module, const string & message){
-            
-        }
-        void HttpLogger::log(ofLogLevel level, const string & module, const char* format, ...){
-            
-        }
-        void HttpLogger::log(ofLogLevel level, const string & module, const char* format, va_list args){
+        void HttpLogger::logResponse(string url, int status){
             
         }
         void HttpLogger::close(){
             
         }
-        void log(){
+        void HttpLogger::log(){
             
         }
     }
