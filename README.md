@@ -1,0 +1,4 @@
+ofxFakeLogger
+=============
+
+FakeLove Logger Addon 
