@@ -9,43 +9,27 @@
 		<string>46</string>
 		<key>objects</key>
 		<dict>
-			<key>DCE7F8DE7DD6EBA12B402A40</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>Status.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/status/Status.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>E80A2DC7E3758459DD643F22</key>
+			<key>7202CE1CEC827825FFC82EDE</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>65A615215828A3623B83CA4B</string>
-					<string>DCE7F8DE7DD6EBA12B402A40</string>
+					<string>78E90E275A4F8B90087FC5CA</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
 				<key>name</key>
-				<string>status</string>
+				<string>src</string>
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>A2FAED5BEA51C2AF567766D8</key>
+			<key>857C6E9F84152BCBC379E0E8</key>
 			<dict>
 				<key>fileRef</key>
-				<string>65A615215828A3623B83CA4B</string>
+				<string>78E90E275A4F8B90087FC5CA</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>65A615215828A3623B83CA4B</key>
+			<key>78E90E275A4F8B90087FC5CA</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -56,11 +40,38 @@
 				<key>name</key>
 				<string>Status.cpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/status/Status.cpp</string>
+				<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/status/src/Status.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>C0ABE9EDD882884F027EE41E</key>
+			<key>79FFB4226D85AA5B93C5F5F9</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>6ED566BC2688E4EDDD18197E</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>include</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E80A2DC7E3758459DD643F22</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>79FFB4226D85AA5B93C5F5F9</string>
+					<string>7202CE1CEC827825FFC82EDE</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>status</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>6ED566BC2688E4EDDD18197E</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -69,34 +80,33 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>Logger.h</string>
+				<string>Status.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/logger/Logger.h</string>
+				<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/status/include/Status.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>44B7FABE6E0341EB50575D69</key>
+			<key>3C8423C5B2522EE53FC09CD5</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>80C6DBD8B6789A6B09BD51F9</string>
-					<string>C0ABE9EDD882884F027EE41E</string>
+					<string>F4E8D75AF26A6B6DB8B31E28</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
 				<key>name</key>
-				<string>logger</string>
+				<string>src</string>
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>82482F25FEBD44C21C02AB75</key>
+			<key>0A03C905A32659BB6B1C38A9</key>
 			<dict>
 				<key>fileRef</key>
-				<string>80C6DBD8B6789A6B09BD51F9</string>
+				<string>F4E8D75AF26A6B6DB8B31E28</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>80C6DBD8B6789A6B09BD51F9</key>
+			<key>F4E8D75AF26A6B6DB8B31E28</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -107,11 +117,38 @@
 				<key>name</key>
 				<string>Logger.cpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/logger/Logger.cpp</string>
+				<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/logger/src/Logger.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>BD33109A39B1F11F2DA99AE7</key>
+			<key>A6C7628757F813A3BDA0F7D6</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>500195F6BB20BBAE40F7EC03</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>include</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>44B7FABE6E0341EB50575D69</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>A6C7628757F813A3BDA0F7D6</string>
+					<string>3C8423C5B2522EE53FC09CD5</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>logger</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>500195F6BB20BBAE40F7EC03</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -120,34 +157,87 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>ImpressionsLogger.h</string>
+				<string>Logger.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/impressions/ImpressionsLogger.h</string>
+				<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/logger/include/Logger.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>DC4DE65AEAB7BDCF9755BEB5</key>
+			<key>C49B59D304CAFAC2F77D267C</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>3E2686E937AE3B2844D856D5</string>
-					<string>BD33109A39B1F11F2DA99AE7</string>
+					<string>4BCB0129E95A80D772DCDA6D</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
 				<key>name</key>
-				<string>impressions</string>
+				<string>FakeLogger</string>
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>B9F70935CB4C34C7ED3FA64C</key>
+			<key>3B8A4C6AD09BB047FEA40BE2</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>C49B59D304CAFAC2F77D267C</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofx</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>24B937CBA8FBCAE4710F7F0B</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>3B8A4C6AD09BB047FEA40BE2</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>include</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>4BCB0129E95A80D772DCDA6D</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>FakeLogger.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/include/ofx/FakeLogger/FakeLogger.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>01194C3A368E0F34E4519D84</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>547C3414F09B13822D84BE51</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>059A4E132D0A2A8196B6534A</key>
 			<dict>
 				<key>fileRef</key>
-				<string>3E2686E937AE3B2844D856D5</string>
+				<string>547C3414F09B13822D84BE51</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>3E2686E937AE3B2844D856D5</key>
+			<key>547C3414F09B13822D84BE51</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -158,11 +248,38 @@
 				<key>name</key>
 				<string>ImpressionsLogger.cpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/impressions/ImpressionsLogger.cpp</string>
+				<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/impressions/src/ImpressionsLogger.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>C953D96E4EAF195D6FEA2FC2</key>
+			<key>A54FD2D1B95B760C32E7535E</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>93C853238E3104811B095086</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>include</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>DC4DE65AEAB7BDCF9755BEB5</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>A54FD2D1B95B760C32E7535E</string>
+					<string>01194C3A368E0F34E4519D84</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>impressions</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>93C853238E3104811B095086</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -171,34 +288,33 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>HttpLogger.h</string>
+				<string>ImpressionsLogger.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/http/HttpLogger.h</string>
+				<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/impressions/include/ImpressionsLogger.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>0AB149A55AA4E4EE6F85895F</key>
+			<key>684097848687DC71E6092F6C</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>5E50447A2D9DDE388C98AE0A</string>
-					<string>C953D96E4EAF195D6FEA2FC2</string>
+					<string>B418D1D5234A95D106E23ACB</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
 				<key>name</key>
-				<string>http</string>
+				<string>src</string>
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>CF62F0351B26F8DEF31F80E8</key>
+			<key>E80E38B2B5B80108D924C76A</key>
 			<dict>
 				<key>fileRef</key>
-				<string>5E50447A2D9DDE388C98AE0A</string>
+				<string>B418D1D5234A95D106E23ACB</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>5E50447A2D9DDE388C98AE0A</key>
+			<key>B418D1D5234A95D106E23ACB</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -209,11 +325,38 @@
 				<key>name</key>
 				<string>HttpLogger.cpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/http/HttpLogger.cpp</string>
+				<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/http/src/HttpLogger.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>7961EF9D3B860F0322676E32</key>
+			<key>DC58609EFEEE4E3DE9DDEE54</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>73167574CFB722E2FA906EBB</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>include</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>0AB149A55AA4E4EE6F85895F</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>DC58609EFEEE4E3DE9DDEE54</string>
+					<string>684097848687DC71E6092F6C</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>http</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>73167574CFB722E2FA906EBB</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -222,18 +365,66 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>DataLogger.h</string>
+				<string>HttpLogger.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/data/DataLogger.h</string>
+				<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/http/include/HttpLogger.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>AF971ABE841BC98D6611FC48</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>0E5EB704F3A83AA8475567C1</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>8CDC00B530D89865BDA5CA8A</key>
+			<dict>
+				<key>fileRef</key>
+				<string>0E5EB704F3A83AA8475567C1</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>0E5EB704F3A83AA8475567C1</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>DataLogger.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/data/src/DataLogger.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>1207838880876D65B8C16D11</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>18408C63A3812D6B49C60AFB</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>include</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
 			</dict>
 			<key>20A8621D4C93ACD782EBAB4F</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>2BD8D4F5395F1361EB7627BC</string>
-					<string>7961EF9D3B860F0322676E32</string>
+					<string>1207838880876D65B8C16D11</string>
+					<string>AF971ABE841BC98D6611FC48</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -249,6 +440,7 @@
 					<string>20A8621D4C93ACD782EBAB4F</string>
 					<string>0AB149A55AA4E4EE6F85895F</string>
 					<string>DC4DE65AEAB7BDCF9755BEB5</string>
+					<string>24B937CBA8FBCAE4710F7F0B</string>
 					<string>44B7FABE6E0341EB50575D69</string>
 					<string>E80A2DC7E3758459DD643F22</string>
 				</array>
@@ -272,25 +464,18 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>DC42A0B5C265115AD8CB6815</key>
-			<dict>
-				<key>fileRef</key>
-				<string>2BD8D4F5395F1361EB7627BC</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>2BD8D4F5395F1361EB7627BC</key>
+			<key>18408C63A3812D6B49C60AFB</key>
 			<dict>
 				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
+				<string>sourcecode.c.h</string>
 				<key>fileEncoding</key>
 				<string>30</string>
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>DataLogger.cpp</string>
+				<string>DataLogger.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/data/DataLogger.cpp</string>
+				<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/data/include/DataLogger.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -790,10 +975,23 @@
 						<string>../../../addons/ofxFakeLogger/libs</string>
 						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger</string>
 						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/data</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/data/include</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/data/src</string>
 						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/http</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/http/include</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/http/src</string>
 						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/impressions</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/impressions/include</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/impressions/src</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/include</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/include/ofx</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/include/ofx/FakeLogger</string>
 						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/logger</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/logger/include</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/logger/src</string>
 						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/status</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/status/include</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/status/src</string>
 						<string>../../../addons/ofxFakeLogger/src</string>
 						<string>src</string>
 					</array>
@@ -857,10 +1055,23 @@
 						<string>../../../addons/ofxFakeLogger/libs</string>
 						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger</string>
 						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/data</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/data/include</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/data/src</string>
 						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/http</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/http/include</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/http/src</string>
 						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/impressions</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/impressions/include</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/impressions/src</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/include</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/include/ofx</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/include/ofx/FakeLogger</string>
 						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/logger</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/logger/include</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/logger/src</string>
 						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/status</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/status/include</string>
+						<string>../../../addons/ofxFakeLogger/libs/ofxFakeLogger/status/src</string>
 						<string>../../../addons/ofxFakeLogger/src</string>
 						<string>src</string>
 					</array>
@@ -924,11 +1135,11 @@
 					<string>E4B69E210A3A1BDC003C02F2</string>
 					<string>29D734F0DDECC8C5978185D7</string>
 					<string>015DC6AB62F2DF04AD33E079</string>
-					<string>DC42A0B5C265115AD8CB6815</string>
-					<string>CF62F0351B26F8DEF31F80E8</string>
-					<string>B9F70935CB4C34C7ED3FA64C</string>
-					<string>82482F25FEBD44C21C02AB75</string>
-					<string>A2FAED5BEA51C2AF567766D8</string>
+					<string>8CDC00B530D89865BDA5CA8A</string>
+					<string>E80E38B2B5B80108D924C76A</string>
+					<string>059A4E132D0A2A8196B6534A</string>
+					<string>0A03C905A32659BB6B1C38A9</string>
+					<string>857C6E9F84152BCBC379E0E8</string>
 				</array>
 				<key>isa</key>
 				<string>PBXSourcesBuildPhase</string>

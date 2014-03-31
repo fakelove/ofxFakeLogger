@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		82482F25FEBD44C21C02AB75 /* Logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80C6DBD8B6789A6B09BD51F9 /* Logger.cpp */; };
-		A2FAED5BEA51C2AF567766D8 /* Status.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A615215828A3623B83CA4B /* Status.cpp */; };
-		B9F70935CB4C34C7ED3FA64C /* ImpressionsLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E2686E937AE3B2844D856D5 /* ImpressionsLogger.cpp */; };
+		059A4E132D0A2A8196B6534A /* ImpressionsLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 547C3414F09B13822D84BE51 /* ImpressionsLogger.cpp */; };
+		0A03C905A32659BB6B1C38A9 /* Logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4E8D75AF26A6B6DB8B31E28 /* Logger.cpp */; };
+		857C6E9F84152BCBC379E0E8 /* Status.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78E90E275A4F8B90087FC5CA /* Status.cpp */; };
+		8CDC00B530D89865BDA5CA8A /* DataLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E5EB704F3A83AA8475567C1 /* DataLogger.cpp */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
-		CF62F0351B26F8DEF31F80E8 /* HttpLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E50447A2D9DDE388C98AE0A /* HttpLogger.cpp */; };
-		DC42A0B5C265115AD8CB6815 /* DataLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8D4F5395F1361EB7627BC /* DataLogger.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
 		E45BE97C0E8CC7DD009D7055 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9720E8CC7DD009D7055 /* ApplicationServices.framework */; };
@@ -31,6 +30,7 @@
 		E7E077E515D3B63C0020DFD4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E077E415D3B63C0020DFD4 /* CoreVideo.framework */; };
 		E7E077E815D3B6510020DFD4 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E077E715D3B6510020DFD4 /* QTKit.framework */; };
 		E7F985F815E0DEA3003869B5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F985F515E0DE99003869B5 /* Accelerate.framework */; };
+		E80E38B2B5B80108D924C76A /* HttpLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B418D1D5234A95D106E23ACB /* HttpLogger.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,18 +64,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2BD8D4F5395F1361EB7627BC /* DataLogger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = DataLogger.cpp; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/data/DataLogger.cpp; sourceTree = SOURCE_ROOT; };
-		3E2686E937AE3B2844D856D5 /* ImpressionsLogger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ImpressionsLogger.cpp; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/impressions/ImpressionsLogger.cpp; sourceTree = SOURCE_ROOT; };
-		5E50447A2D9DDE388C98AE0A /* HttpLogger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = HttpLogger.cpp; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/http/HttpLogger.cpp; sourceTree = SOURCE_ROOT; };
-		65A615215828A3623B83CA4B /* Status.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Status.cpp; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/status/Status.cpp; sourceTree = SOURCE_ROOT; };
-		7961EF9D3B860F0322676E32 /* DataLogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = DataLogger.h; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/data/DataLogger.h; sourceTree = SOURCE_ROOT; };
-		80C6DBD8B6789A6B09BD51F9 /* Logger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Logger.cpp; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/logger/Logger.cpp; sourceTree = SOURCE_ROOT; };
+		0E5EB704F3A83AA8475567C1 /* DataLogger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = DataLogger.cpp; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/data/src/DataLogger.cpp; sourceTree = SOURCE_ROOT; };
+		18408C63A3812D6B49C60AFB /* DataLogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = DataLogger.h; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/data/include/DataLogger.h; sourceTree = SOURCE_ROOT; };
+		4BCB0129E95A80D772DCDA6D /* FakeLogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = FakeLogger.h; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/include/ofx/FakeLogger/FakeLogger.h; sourceTree = SOURCE_ROOT; };
+		500195F6BB20BBAE40F7EC03 /* Logger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Logger.h; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/logger/include/Logger.h; sourceTree = SOURCE_ROOT; };
+		547C3414F09B13822D84BE51 /* ImpressionsLogger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ImpressionsLogger.cpp; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/impressions/src/ImpressionsLogger.cpp; sourceTree = SOURCE_ROOT; };
+		6ED566BC2688E4EDDD18197E /* Status.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Status.h; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/status/include/Status.h; sourceTree = SOURCE_ROOT; };
+		73167574CFB722E2FA906EBB /* HttpLogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = HttpLogger.h; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/http/include/HttpLogger.h; sourceTree = SOURCE_ROOT; };
+		78E90E275A4F8B90087FC5CA /* Status.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Status.cpp; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/status/src/Status.cpp; sourceTree = SOURCE_ROOT; };
+		93C853238E3104811B095086 /* ImpressionsLogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImpressionsLogger.h; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/impressions/include/ImpressionsLogger.h; sourceTree = SOURCE_ROOT; };
+		B418D1D5234A95D106E23ACB /* HttpLogger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = HttpLogger.cpp; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/http/src/HttpLogger.cpp; sourceTree = SOURCE_ROOT; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
-		BD33109A39B1F11F2DA99AE7 /* ImpressionsLogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImpressionsLogger.h; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/impressions/ImpressionsLogger.h; sourceTree = SOURCE_ROOT; };
-		C0ABE9EDD882884F027EE41E /* Logger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Logger.h; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/logger/Logger.h; sourceTree = SOURCE_ROOT; };
-		C953D96E4EAF195D6FEA2FC2 /* HttpLogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = HttpLogger.h; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/http/HttpLogger.h; sourceTree = SOURCE_ROOT; };
 		DB5A694BF3586AABAF419B38 /* ofxFakeLogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxFakeLogger.h; path = ../../../addons/ofxFakeLogger/src/ofxFakeLogger.h; sourceTree = SOURCE_ROOT; };
-		DCE7F8DE7DD6EBA12B402A40 /* Status.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Status.h; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/status/Status.h; sourceTree = SOURCE_ROOT; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
 		E45BE9720E8CC7DD009D7055 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
@@ -98,6 +98,7 @@
 		E7E077E415D3B63C0020DFD4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		E7E077E715D3B6510020DFD4 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		E7F985F515E0DE99003869B5 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
+		F4E8D75AF26A6B6DB8B31E28 /* Logger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Logger.cpp; path = ../../../addons/ofxFakeLogger/libs/ofxFakeLogger/logger/src/Logger.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,22 +128,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01194C3A368E0F34E4519D84 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				547C3414F09B13822D84BE51 /* ImpressionsLogger.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
 		0AB149A55AA4E4EE6F85895F /* http */ = {
 			isa = PBXGroup;
 			children = (
-				5E50447A2D9DDE388C98AE0A /* HttpLogger.cpp */,
-				C953D96E4EAF195D6FEA2FC2 /* HttpLogger.h */,
+				DC58609EFEEE4E3DE9DDEE54 /* include */,
+				684097848687DC71E6092F6C /* src */,
 			);
 			name = http;
+			sourceTree = "<group>";
+		};
+		1207838880876D65B8C16D11 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				18408C63A3812D6B49C60AFB /* DataLogger.h */,
+			);
+			name = include;
 			sourceTree = "<group>";
 		};
 		20A8621D4C93ACD782EBAB4F /* data */ = {
 			isa = PBXGroup;
 			children = (
-				2BD8D4F5395F1361EB7627BC /* DataLogger.cpp */,
-				7961EF9D3B860F0322676E32 /* DataLogger.h */,
+				1207838880876D65B8C16D11 /* include */,
+				AF971ABE841BC98D6611FC48 /* src */,
 			);
 			name = data;
+			sourceTree = "<group>";
+		};
+		24B937CBA8FBCAE4710F7F0B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				3B8A4C6AD09BB047FEA40BE2 /* ofx */,
+			);
+			name = include;
 			sourceTree = "<group>";
 		};
 		2B251622E45428886E9BA4F0 /* src */ = {
@@ -153,11 +178,27 @@
 			name = src;
 			sourceTree = "<group>";
 		};
+		3B8A4C6AD09BB047FEA40BE2 /* ofx */ = {
+			isa = PBXGroup;
+			children = (
+				C49B59D304CAFAC2F77D267C /* FakeLogger */,
+			);
+			name = ofx;
+			sourceTree = "<group>";
+		};
+		3C8423C5B2522EE53FC09CD5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F4E8D75AF26A6B6DB8B31E28 /* Logger.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
 		44B7FABE6E0341EB50575D69 /* logger */ = {
 			isa = PBXGroup;
 			children = (
-				80C6DBD8B6789A6B09BD51F9 /* Logger.cpp */,
-				C0ABE9EDD882884F027EE41E /* Logger.h */,
+				A6C7628757F813A3BDA0F7D6 /* include */,
+				3C8423C5B2522EE53FC09CD5 /* src */,
 			);
 			name = logger;
 			sourceTree = "<group>";
@@ -168,6 +209,30 @@
 				9ECCEA110131EC51EBA20954 /* ofxFakeLogger */,
 			);
 			name = libs;
+			sourceTree = "<group>";
+		};
+		684097848687DC71E6092F6C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B418D1D5234A95D106E23ACB /* HttpLogger.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		7202CE1CEC827825FFC82EDE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				78E90E275A4F8B90087FC5CA /* Status.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		79FFB4226D85AA5B93C5F5F9 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				6ED566BC2688E4EDDD18197E /* Status.h */,
+			);
+			name = include;
 			sourceTree = "<group>";
 		};
 		9CA10EB3D8E78694E460F783 /* ofxFakeLogger */ = {
@@ -185,10 +250,35 @@
 				20A8621D4C93ACD782EBAB4F /* data */,
 				0AB149A55AA4E4EE6F85895F /* http */,
 				DC4DE65AEAB7BDCF9755BEB5 /* impressions */,
+				24B937CBA8FBCAE4710F7F0B /* include */,
 				44B7FABE6E0341EB50575D69 /* logger */,
 				E80A2DC7E3758459DD643F22 /* status */,
 			);
 			name = ofxFakeLogger;
+			sourceTree = "<group>";
+		};
+		A54FD2D1B95B760C32E7535E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				93C853238E3104811B095086 /* ImpressionsLogger.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		A6C7628757F813A3BDA0F7D6 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				500195F6BB20BBAE40F7EC03 /* Logger.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		AF971ABE841BC98D6611FC48 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0E5EB704F3A83AA8475567C1 /* DataLogger.cpp */,
+			);
+			name = src;
 			sourceTree = "<group>";
 		};
 		BB4B014C10F69532006C3DED /* addons */ = {
@@ -228,13 +318,29 @@
 			name = "3rd party frameworks";
 			sourceTree = "<group>";
 		};
+		C49B59D304CAFAC2F77D267C /* FakeLogger */ = {
+			isa = PBXGroup;
+			children = (
+				4BCB0129E95A80D772DCDA6D /* FakeLogger.h */,
+			);
+			name = FakeLogger;
+			sourceTree = "<group>";
+		};
 		DC4DE65AEAB7BDCF9755BEB5 /* impressions */ = {
 			isa = PBXGroup;
 			children = (
-				3E2686E937AE3B2844D856D5 /* ImpressionsLogger.cpp */,
-				BD33109A39B1F11F2DA99AE7 /* ImpressionsLogger.h */,
+				A54FD2D1B95B760C32E7535E /* include */,
+				01194C3A368E0F34E4519D84 /* src */,
 			);
 			name = impressions;
+			sourceTree = "<group>";
+		};
+		DC58609EFEEE4E3DE9DDEE54 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				73167574CFB722E2FA906EBB /* HttpLogger.h */,
+			);
+			name = include;
 			sourceTree = "<group>";
 		};
 		E4328144138ABC890047C5CB /* Products */ = {
@@ -289,8 +395,8 @@
 		E80A2DC7E3758459DD643F22 /* status */ = {
 			isa = PBXGroup;
 			children = (
-				65A615215828A3623B83CA4B /* Status.cpp */,
-				DCE7F8DE7DD6EBA12B402A40 /* Status.h */,
+				79FFB4226D85AA5B93C5F5F9 /* include */,
+				7202CE1CEC827825FFC82EDE /* src */,
 			);
 			name = status;
 			sourceTree = "<group>";
@@ -384,11 +490,11 @@
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
-				DC42A0B5C265115AD8CB6815 /* DataLogger.cpp in Sources */,
-				CF62F0351B26F8DEF31F80E8 /* HttpLogger.cpp in Sources */,
-				B9F70935CB4C34C7ED3FA64C /* ImpressionsLogger.cpp in Sources */,
-				82482F25FEBD44C21C02AB75 /* Logger.cpp in Sources */,
-				A2FAED5BEA51C2AF567766D8 /* Status.cpp in Sources */,
+				8CDC00B530D89865BDA5CA8A /* DataLogger.cpp in Sources */,
+				E80E38B2B5B80108D924C76A /* HttpLogger.cpp in Sources */,
+				059A4E132D0A2A8196B6534A /* ImpressionsLogger.cpp in Sources */,
+				0A03C905A32659BB6B1C38A9 /* Logger.cpp in Sources */,
+				857C6E9F84152BCBC379E0E8 /* Status.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,10 +534,23 @@
 					../../../addons/ofxFakeLogger/libs,
 					../../../addons/ofxFakeLogger/libs/ofxFakeLogger,
 					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/data,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/data/include,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/data/src,
 					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/http,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/http/include,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/http/src,
 					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/impressions,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/impressions/include,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/impressions/src,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/include,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/include/ofx,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/include/ofx/FakeLogger,
 					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/logger,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/logger/include,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/logger/src,
 					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/status,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/status/include,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/status/src,
 					../../../addons/ofxFakeLogger/src,
 					src,
 				);
@@ -471,10 +590,23 @@
 					../../../addons/ofxFakeLogger/libs,
 					../../../addons/ofxFakeLogger/libs/ofxFakeLogger,
 					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/data,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/data/include,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/data/src,
 					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/http,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/http/include,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/http/src,
 					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/impressions,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/impressions/include,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/impressions/src,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/include,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/include/ofx,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/include/ofx/FakeLogger,
 					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/logger,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/logger/include,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/logger/src,
 					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/status,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/status/include,
+					../../../addons/ofxFakeLogger/libs/ofxFakeLogger/status/src,
 					../../../addons/ofxFakeLogger/src,
 					src,
 				);
