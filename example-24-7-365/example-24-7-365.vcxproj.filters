@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\testApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxFakeLogger\src\ofxFakeLogger.cpp">
+			<Filter>addons\ofxFakeLogger\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxFakeLogger\libs\ofxFakeLogger\data\DataLogger.cpp">
+			<Filter>addons\ofxFakeLogger\libs\ofxFakeLogger\data</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxFakeLogger\libs\ofxFakeLogger\http\HttpLogger.cpp">
+			<Filter>addons\ofxFakeLogger\libs\ofxFakeLogger\http</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxFakeLogger\libs\ofxFakeLogger\impressions\ImpressionsLogger.cpp">
+			<Filter>addons\ofxFakeLogger\libs\ofxFakeLogger\impressions</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxFakeLogger\libs\ofxFakeLogger\logger\Logger.cpp">
+			<Filter>addons\ofxFakeLogger\libs\ofxFakeLogger\logger</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxFakeLogger\libs\ofxFakeLogger\status\Status.cpp">
+			<Filter>addons\ofxFakeLogger\libs\ofxFakeLogger\status</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFakeLogger">
+			<UniqueIdentifier>{9F6173E9-FAF4-B57D-B483-9889}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFakeLogger\src">
+			<UniqueIdentifier>{16FB472C-343E-CE91-85D0-CC18}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFakeLogger\libs">
+			<UniqueIdentifier>{A2DB61BE-CEF2-238F-5BB3-B540}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFakeLogger\libs\ofxFakeLogger">
+			<UniqueIdentifier>{CEA14829-3F80-3863-64FE-5B38}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFakeLogger\libs\ofxFakeLogger\data">
+			<UniqueIdentifier>{D35F5F25-39E1-2BD9-1E44-7951}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFakeLogger\libs\ofxFakeLogger\http">
+			<UniqueIdentifier>{0E08C7DD-536F-5F87-315F-447A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFakeLogger\libs\ofxFakeLogger\impressions">
+			<UniqueIdentifier>{3197642A-4C42-7FDB-4997-7969}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFakeLogger\libs\ofxFakeLogger\logger">
+			<UniqueIdentifier>{3420C043-6E67-6386-B47A-3A93}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFakeLogger\libs\ofxFakeLogger\status">
+			<UniqueIdentifier>{0E0F1746-8E3F-5D48-DDD8-00C9}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\testApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFakeLogger\src\ofxFakeLogger.h">
+			<Filter>addons\ofxFakeLogger\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFakeLogger\libs\ofxFakeLogger\data\DataLogger.h">
+			<Filter>addons\ofxFakeLogger\libs\ofxFakeLogger\data</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFakeLogger\libs\ofxFakeLogger\http\HttpLogger.h">
+			<Filter>addons\ofxFakeLogger\libs\ofxFakeLogger\http</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFakeLogger\libs\ofxFakeLogger\impressions\ImpressionsLogger.h">
+			<Filter>addons\ofxFakeLogger\libs\ofxFakeLogger\impressions</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFakeLogger\libs\ofxFakeLogger\logger\Logger.h">
+			<Filter>addons\ofxFakeLogger\libs\ofxFakeLogger\logger</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFakeLogger\libs\ofxFakeLogger\status\Status.h">
+			<Filter>addons\ofxFakeLogger\libs\ofxFakeLogger\status</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
